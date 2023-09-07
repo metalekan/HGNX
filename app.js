@@ -21,7 +21,7 @@ const loadTime = () => {
 
   let timeFormat = hour >= 12 ? "AM" : "PM";
 
-  currentDayOfTheWeek.innerText = daysOfTheWeek[day];
+  dayOfTheWeek.innerText = daysOfTheWeek[day];
   currentUTCTime.innerText = `${hour} : ${minute} ${timeFormat}`;
 };
 
