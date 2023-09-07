@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #23252c;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.admin {
+    height: 450px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1a1b21;
+    padding: 0.75rem;
+    border: 1px dashed;
+    border-radius: 16px;
+    color: #ffffff;
+}
+
+[data-testid="slackDisplayImage"] {
+    height: 65%;
+    object-fit: cover;
+    border-radius: 9px;
+}
+
+.admin__info {
+    display: flex;
+    flex-direction: column;
+}
+
+
+[data-testid="myTrack"] {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+[data-testid="githubURL"] {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-color: #fafafa;
+    gap: 4px;
+    border-radius: 6px;
+    padding: 6px 0;
+    color: #23252c;
+    font-weight: 600;
+}
+
+[data-testid="githubURL"] i {
+    font-size: 1.2rem;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+    font-size: 14px;
+    font-weight: 600;
+}
