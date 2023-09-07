@@ -14,7 +14,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    height: 100vh;
     background-color: #23252c;
     font-family: 'Montserrat', sans-serif;
 }
@@ -69,6 +69,7 @@ a {
     display: flex;
     flex-direction: column;
     align-self: end;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
+    margin-right: 3px;
 }
